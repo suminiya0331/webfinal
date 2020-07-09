@@ -1,0 +1,263 @@
+
+.cover {
+  height: 400px;
+}
+.cover p {
+  position: center;
+  font-family: "Montserrat";
+  font-weight: bold;
+  margin-top: 250px;
+  font-size: 72px;
+  line-height: 160%;
+  position: relative;
+	-webkit-animation: tracking-in-expand 1.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-expand 1.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+.cover p span {
+  color: blue;
+}
+.cover p {
+  -webkit-animation: tracking-in-expand 1.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+        animation: tracking-in-expand 1.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+.text h2 {
+  font-size: 32px;
+  margin-bottom: 16px;
+  animation-duration: 2.2s;
+  animation-name: slidein;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: underline;
+  text-decoration-color: blue;
+}
+
+.text h2:hover {
+  animation: swingVertical 1s ease;
+  animation-iteration-count: 1;
+}
+
+@keyframes swingVertical {
+  15% {
+    transform: translateY(6px);
+  }
+
+  30% {
+    transform: translateY(-6px);
+  }
+
+  50% {
+    transform: translateY(4px);
+  }
+
+  65% {
+    transform: translateY(-2px);
+  }
+
+  80% {
+    transform: translateY(2px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.text p {
+  line-height: 160%;
+  margin-bottom: 50px;
+}
+.tone {
+  float: left;
+  margin-right: 200px;
+  font-family:"Montserrat";
+  font-weight:bold;
+  font-size: 20px;
+}
+.concept {
+  margin-top: 20px;
+  margin-bottom: 80px;
+  font-size: 36px;
+  font-family:"Montserrat";
+  font-weight:bold;
+}
+.concept span {
+  position: relative;
+}
+.concept span:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 70%;
+  left: -0.1px;
+  right: -0.1px;
+  bottom: 0;
+  transition: top .1s ease-in-out;
+  background-color: blue;
+}
+.concept span:hover::after {
+  top: 0;
+}
+#boxes:hover{
+  animation: swingVertical 1s ease;
+  animation-iteration-count: 1;
+}
+.box1 {
+  box-sizing: border-box;
+  background-color: red;
+  width: 400px;
+  height: 75px;
+}
+.box2 {
+  box-sizing: border-box;
+  background-color: yellow;
+  width: 400px;
+  height: 75px;
+}
+.box3 {
+  box-sizing: border-box;
+  background-color: blue;
+  width: 400px;
+  height: 75px;
+}
+.box3 {
+  box-sizing: border-box;
+  background-color: #00ff00;
+  width: 400px;
+  height: 75px;
+}
+.box4 {
+  box-sizing: border-box;
+  background-color: blue;
+  width: 400px;
+  height: 75px;
+}
+.box5 {
+  box-sizing: border-box;
+  background-color: #ce02ee;
+  width: 400px;
+  height: 75px;
+}
+#boxtext span {
+  color: white;
+  font-size: 15px;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+.typo {
+  float: left;
+  font-family:"Montserrat";
+  font-weight:bold;
+  font-size: 20px;
+}
+.typo img:hover {
+  animation: swingVertical 1s ease;
+  animation-iteration-count: 1;
+}
+.shapestyle {
+  margin-right: 200px;
+  font-family:"Montserrat";
+  font-weight:bold;
+  font-size: 20px;
+}
+.shapes:hover {
+  animation: swingVertical 1s ease;
+  animation-iteration-count: 1;
+}
+.yellowcircle {
+  box-sizing: border-box;
+  float: left;
+  border-radius: 100px;
+  width: 100px; height: 100px;
+  background-color: yellow;
+  margin-right: 50px;
+}
+.bluecircle {
+  box-sizing: border-box;
+  float: left;
+  border-radius: 100px;
+  width: 100px; height: 100px;
+  background-color: #00ff00;
+  margin-right: 50px;
+}
+.purplesquare {
+  float: left;
+  box-sizing: border-box;
+  width:100px; height: 100px;
+  background-color: #ce02ee;
+  margin-right: 50px;
+}
+.shapes span {
+  float:left;
+  position: relative;
+  font-size: 32px;
+  margin-top: 20px;
+}
+.shapes span:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 70%;
+  left: -0.1px;
+  right: -0.1px;
+  bottom: 0;
+  transition: top .1s ease-in-out;
+  background-color: blue;
+}
+.shapes span:hover::after {
+  top: 0;
+}
+.basicshape_images {
+  margin-left: -20px;
+}
+.basicshape_images img:hover {
+  animation: swingVertical 1s ease;
+  animation-iteration-count: 1;
+}
+.poster {
+  margin-left: -20px;
+}
+.basicshape_images img {
+  filter: drop-shadow(5px 5px 5px #f1f1f1);
+  margin-left: 20px;
+}
+.poster img {
+  filter: drop-shadow(5px 5px 5px #f1f1f1);
+  margin-left: 20px;
+}
+.poster img:hover {
+  animation: swingVertical 1s ease;
+  animation-iteration-count: 1;
+}
+.poster_mockup {
+}
+.poster_mockup h2  {
+  float: left; margin-right: 100px;
+}
+.poster_mockup img {
+  float: left;
+}
+.poster_mockup {
+}
+
+.etc {
+  margin-top:100px;
+  height: 1080px;
+  background-size: 1920px;
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-image: url("https://suminiya0331.github.io/IMG/ri_poster_mockup_2.png");
+  background-attachment: fixed;
+}
+
+.footer {
+  height: 75px;
+  background-color: blue;
+  color: white;
+  text-align: center;
+}
+.footer p {
+  font-size: 11px;
+  display: inline-block;
+  text-align: center;
+  margin-top: 30px;
+}

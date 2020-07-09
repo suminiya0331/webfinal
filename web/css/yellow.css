@@ -1,0 +1,197 @@
+.cover {
+  height: 400px;
+}
+.cover p {
+  position: center;
+  font-family: "Montserrat";
+  font-weight: bold;
+  margin-top: 250px;
+  font-size: 72px;
+  line-height: 160%;
+  position: relative;
+	-webkit-animation: tracking-in-expand 1.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-expand 1.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+.cover p span {
+  color: yellow;
+}
+.cover p {
+  -webkit-animation: tracking-in-expand 1.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+        animation: tracking-in-expand 1.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+.text h2 {
+  font-size: 32px;
+  margin-bottom: 16px;
+  animation-duration: 2.2s;
+  animation-name: slidein;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: underline;
+  text-decoration-color: yellow;
+}
+
+.text h2:hover {
+  animation: swingVertical 1s ease;
+  animation-iteration-count: 1;
+}
+
+@keyframes swingVertical {
+  15% {
+    transform: translateY(6px);
+  }
+
+  30% {
+    transform: translateY(-6px);
+  }
+
+  50% {
+    transform: translateY(4px);
+  }
+
+  65% {
+    transform: translateY(-2px);
+  }
+
+  80% {
+    transform: translateY(2px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.text p {
+  line-height: 160%;
+  margin-bottom: 50px;
+}
+.designconcept {
+  float: left;
+}
+.tone {
+  float: left;
+  margin-right: 200px;
+}
+.box1 {
+  box-sizing: border-box;
+  background-color: red;
+  width: 400px;
+  height: 75px;
+}
+.box2 {
+  box-sizing: border-box;
+  background-color: yellow;
+  width: 400px;
+  height: 75px;
+}
+.box3 {
+  box-sizing: border-box;
+  background-color: blue;
+  width: 400px;
+  height: 75px;
+}
+#concepttext {
+  float: left;
+  font-size: 20px;
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+.boxes:hover {
+  animation: swingVertical 1s ease;
+  animation-iteration-count: 1;
+}
+#boxtext span {
+  color: white;
+  font-size: 15px;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+.icon span {
+  font-weight: bold;
+  font-size: 36px;
+  color:black;
+  position: relative;
+}
+
+.icon span::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 70%;
+  left: -0.1px;
+  right: -0.1px;
+  bottom: 0;
+  transition: top .1s ease-in-out;
+  background-color: yellow;
+}
+.icon span:hover::after {
+  top: 0;
+}
+.firstspan {
+  margin-bottom: 20px;
+}
+#slidein {
+  margin-bottom: 150px;
+}
+.icon1 {
+  margin-bottom: 50px;
+}
+.etc {
+  margin-top: 50px;
+  background-size: 1920px;
+  height: 800px;
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-image: url("https://suminiya0331.github.io/IMG/mockuptwo.png");
+  background-attachment: fixed;
+}
+.footer {
+  height: 75px;
+  background-color: yellow;
+  color: #707070;
+  text-align: center;
+}
+.footer p {
+  font-size: 11px;
+  display: inline-block;
+  text-align: center;
+  margin-top: 30px;
+}
+.theme img {
+  margin-right: 10px;
+}
+.theme img:hover {
+  animation: swingVertical 1s ease;
+  animation-iteration-count: 1;
+}
+.theme {
+  float: left;
+}
+.theme span {
+  font-family:"Montserrat";
+  font-weight: bold;
+  font-size: 36px;
+  color:black;
+  position: relative;
+}
+.theme span::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 70%;
+  left: -0.1px;
+  right: -0.1px;
+  bottom: 0;
+  transition: top .1s ease-in-out;
+  background-color: yellow;
+}
+.theme span:hover::after {
+  top: 0;
+}
+.iconimages img {
+  position: relative;
+}
+.iconimages img:hover {
+  animation: swingVertical 1s ease;
+  animation-iteration-count: 1;
+}
