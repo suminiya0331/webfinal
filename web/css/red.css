@@ -1,4 +1,6 @@
-
+body {
+  overflow-x:hidden;
+}
 .cover {
   height: 400px;
 }
@@ -250,8 +252,10 @@
 }
 
 .footer {
+  margin-left: -400px;
+  width: 1920px;
   height: 75px;
-  background-color: blue;
+  background-color: red;
   color: white;
   text-align: center;
 }
